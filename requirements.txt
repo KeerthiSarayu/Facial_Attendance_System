@@ -1,0 +1,7 @@
+1. Python 3.7
+2. OpenCV
+3. Firebase Admin SDK
+4. Face Recognition module
+5. numpy
+6. pickle
+7. face_recognition
