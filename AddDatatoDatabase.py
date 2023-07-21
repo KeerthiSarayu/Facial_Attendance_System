@@ -4,7 +4,7 @@ from firebase_admin import db
 
 cred = credentials.Certificate("FaceRecognition.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://attendanceusingfacerecog-default-rtdb.firebaseio.com/"
+    'databaseURL': ""
 })
 
 ref = db.reference('Students')
@@ -22,13 +22,13 @@ data = {
         },
     "123456":
         {
-            "name": "Hasmitha",
-            "major": "AIML",
-            "starting_year": 2021,
+            "name": "Sarayu",
+            "major": IT",
+            "starting_year": 2022,
             "total_attendance": 1,
             "standing": "A",
-            "year": 2,
-            "last_attendance_time": "2022-12-11 00:54:34"
+            "year": 3,
+            "last_attendance_time": "2022-12-11 00:52:13"
         },
     "654321":
         {
